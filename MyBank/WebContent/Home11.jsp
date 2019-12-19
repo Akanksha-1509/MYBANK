@@ -37,7 +37,7 @@ body{
 		<li><a href="#"><i class="fa fa-inr"></i>Fund Transfer</a>
 			<ul>
 				<div class="sub-menu-1">
-					<li><a href="NEFT.jsp">NEFT</a></li>
+					<li><a href="#">NEFT</a></li>
 					<li><a href="#">IMPS</a></li>
 					<li><a href="#">RTGS</a></li>
 				</div>
@@ -46,8 +46,8 @@ body{
 		<li><a href="#"><i class="fa fa-clone"></i>Account Statement</a>
 			<ul>
 				<div class="sub-menu-1">
-				<li><a href="#">Mini Statement</a></li>
-				<li><a href="#">Detailed Statement</a></li>
+				<li><a href="AccountStatementMini.jsp">Mini Statement</a></li>
+				<li><a href="AccountStatement.jsp">Detailed Statement</a></li>
 				</div>
 			</ul>
 		</li>

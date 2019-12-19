@@ -79,4 +79,24 @@
     <servlet-name>NEFTController</servlet-name>
     <url-pattern>/NEFTController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AccountStatement</display-name>
+    <servlet-name>AccountStatement</servlet-name>
+    <servlet-class>com.controller.AccountStatement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountStatement</servlet-name>
+    <url-pattern>/AccountStatement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StatementController</display-name>
+    <servlet-name>StatementController</servlet-name>
+    <servlet-class>com.controller.StatementController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StatementController</servlet-name>
+    <url-pattern>/StatementController</url-pattern>
+  </servlet-mapping>
 </web-app>

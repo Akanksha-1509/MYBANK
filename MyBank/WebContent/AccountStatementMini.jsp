@@ -7,36 +7,28 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="allcss.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
 <style>
 body{
   background-image: url("a3.jpg");
- 
- }
- pre{
- 	dispay:block;
- 	font-family:monospace;
- 	white-space:pre;
- 	margin: 1em 0;
+  margin: 0px 0;
  }
 table{
 background: #2AA1A0;
 border:2px solid black;
 border-radius:30px;
 padding:100px;
-
 }
-tr,td {
+ tr,td {
                 width:150px;
                 text-align:center;
-                 padding:15px 
+                 padding:30px 
 }
 </style>
+
+</head>
 <body>
-<form action="TranferController" method="post">
 <div class="glass">
-   <h1   align="center"><b><i class="fa fa-retweet"></i>JM ROAD BANK</b></h1>
+   <h1   align="center"><b>JM ROAD BANK</b></h1>
 </div>
 <div class="menu-bar">
 	<ul>
@@ -57,12 +49,7 @@ tr,td {
 				</ul>
         </li>
 		<li><a href="#"><i class="fa fa-clone"></i>Account Statement</a>
-			<ul>
-				<div class="sub-menu-1">
-				<li><a href="#">Mini Statement</a></li>
-				<li><a href="#">Detailed Statement</a></li>
-				</div>
-			</ul>
+			
 		</li>
 		<li><a href="#"><i class="fa fa-edit"></i>Apply For</a>
 			<ul>
@@ -90,40 +77,7 @@ tr,td {
 	
 	</ul>
 </div>
-<h2 align="center">Guidlines:</h2>
-<body style="background-color:powderblue;">
-<form action="LoginController" method="post">
-<table  align="center" style="margin-top:90px; margin-down:200px; margin-left:10px;" bgcolor="background: #44E3E2;">
-
-<tr>
-<td>Remitter's Account No.</td>
-<td><input type="text" name="AccNo"></td>
-</tr>
-<tr>
-<td>Beneficiary Name</td>
-<td><input type="text" name="BenefName"></td>
-</tr>
-<tr>
-<td>Beneficiary Account No.</td>
-<td><input type="text" name="BenefAccNo"></td>
-</tr>
-<tr>
-<td>IFSC code</td>
-<td><input type="text" name="IFSCcode"></td>
-</tr>
-<tr>
-<td>Amount of transaction</td>
-<td><input type="text" name="Amount"><br></td>
-<tr>
-<td><input type="submit" value="Transfer" name="Transfer"><br></td>
-<td><input type="submit" value="Reject" name="Reject"><br></td>
-<a href="#" class="button">Link Button</a>
-<button class="button">Button</button>
-<input type="button" class="button" value="Input Button">
-
-
-</tr>
-</table>
-</form>
+<h3 align ="center"><font size="6" color="black"><b>Mini Statements</b></font></h3>
+	
 </body>
 </html>
